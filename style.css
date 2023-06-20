@@ -1,0 +1,223 @@
+
+.navbarsecond{
+  margin-left: 250px;
+  margin-right: 100px;
+}
+.navbarsecond ul li a{
+    margin: 10px solid black;
+    padding-right:10px ;
+
+}
+.navbarsecond a{
+    margin: 10px solid black;
+}
+.navbarsecond a:hover{
+    background-color: #4169e1;
+    transition: all 0.5s;
+}
+/* Sticky Class Designed to provide Sticky Property to the Navbar using JavaScript */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+    
+}
+.left{
+    background-color: #4169e1;
+    color: black;
+}
+.left a{
+    margin-left: 100px;
+}
+.a1{
+    
+    color: black;
+}
+.a1:hover{
+    color: white;
+    transition: all 0.5s;
+}
+.navbar-brand{
+    margin-left: 100px;
+}
+.right{
+    float: right;
+    display: flex;
+    
+}
+.fb a{
+margin: 2px solid red;
+}
+.right i{
+    /* border: 2px solid rgb(241, 13, 13); */
+    margin-left:  0px;
+    margin-right: 0px;
+    /* display: block;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
+.instagram{
+     color:   black ;
+    /* border: 2px solid black;  */
+    width: 20px;
+    margin-right: 200px; 
+}
+.facebook{
+    /* color: black; */
+    width: 20px;
+ } 
+.linkedin{
+    color: black;
+    /* border: 2px solid black;   */
+    width: 20px; 
+}
+.right a:hover{
+    color: white;
+    transition: all 0.5s;
+}
+.right a i:hover{
+    color: white;
+    transition: all 0.5s;
+    transition: none;
+}
+.btn:hover{
+    color: white;
+    border: solid black;
+background-color: #4169e1;
+}
+.topimage img{
+   width: 100%;
+   /* border: 2px solid red; */
+   display: inline-block;
+   height: 600px;
+
+} 
+/* .image-section{
+    border: 2px solid red;
+} */
+.footersm i:hover{
+    background-color: re;
+}
+.info p{
+    margin-left: -20px;
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 400px;
+}
+.footerbg{
+    margin-top: 100px;
+    width: 99%;
+    display: inline-block;
+    /* border: 2px solid black;      */
+    height: 400px;
+}
+.container1{
+    width: 1347px;
+    
+}
+/* about.html */
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+
+.gps{
+    border: 20px solid black;
+    width: 22%;
+      max-width: 20%;
+}
+.parent{
+    display: flex;
+    /* border: 4px solid black; */
+    height: 350px;
+}
+/* .aa{
+    display: flex;
+} */
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4169e1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkblue;
+}
+
+.cont {
+    margin-left: 300px;
+    margin-right: 300px;
+    /* border: 4px solid black;  */
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
